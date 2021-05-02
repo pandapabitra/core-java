@@ -1,6 +1,7 @@
 package com.mycompany.polymorphismdemo;
 
-/*
+/* System.out.println("Inside function radius is "+radius);
+        System.out.println("Inside function calculated value is "+(3.14 * radius * radius));
 * Overloaded when
 * 1. no of param list differs
 * 2. data type of param list differs
@@ -10,6 +11,7 @@ public class Area {
     //number of parameters vary then its an overloaded function
     //data type of parameters vary then its an overloaded function
     public double calculateArea(double radius){
+
         return (3.14 * radius * radius);
     }
     //number of parameters vary then its an overloaded function

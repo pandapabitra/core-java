@@ -1,5 +1,7 @@
 package com.mycompany.stringdemo;
 
+import com.mycompany.staticdemo.StaticPractice;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -204,5 +206,19 @@ public class StringMain {
         System.out.println("Taking user input with the help of nextLine()");
         String stringex2=sc.next();
         System.out.println(stringex2+stringex2.length());
+
+        System.out.println("---------");
+        sc.nextLine();
+        String option4 =sc.nextLine();
+        System.out.println("Do you want to update the Book Name, enter Y to update or N to skip");
+        if(option4.toUpperCase()=="Y")
+        {
+            System.out.println("Same");
+        }
+        else
+        {
+            System.out.println("Different");
+        }
+        StaticPractice.display();
     }
  }
