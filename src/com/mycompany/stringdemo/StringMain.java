@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class StringMain {
     public static void main(String[] args)
     {
+        String a1 = new String("ABC Pvt");
+        String a2 = new String("ABC Pvt").intern();
+        System.out.println(a1==a2);
+        System.out.println(a1.equals(a2));
         String s1 = "John";
         String s2 = "John";
         String s3 = new String("John");
