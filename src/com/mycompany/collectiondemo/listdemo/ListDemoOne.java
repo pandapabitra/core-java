@@ -16,19 +16,20 @@ public class ListDemoOne {
         numberList.add("YELLOW Ball");
         numberList.add("PINK Ball");
         numberList.add("PURPLE Ball");
-        numberList.add("88.975");
+        numberList.add(88.975);
         numberList.add("BLUE Ball");
-        numberList.add("2005");
+        numberList.add(2005);
 
         for(int i=0; i<numberList.size(); i++)
         {
             System.out.println("COLOR BALLS: "+numberList.get(i));
         }
-        /*
+
         for(Object a: numberList)
         {
-            System.out.println("COLOR BALLS: "+a);
+            System.out.println("COLOR BALLS: "+a);//.get not required here
+            //System.out.println("COLOR BALLS: "+a.getClass());
         }
-        */
+
     }
 }

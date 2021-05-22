@@ -20,6 +20,10 @@ public class SetDemo {
         rolls.add(99);
 
         rolls.add(null);//TreeSet does not allow null value but HashSet allows null values
+        for(int i=0;i< rolls.size();i++)
+        {
+            System.out.println(rolls);
+        }
         for(Integer r: rolls)
         {
             System.out.println(r);

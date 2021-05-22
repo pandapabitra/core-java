@@ -42,6 +42,6 @@ public class ListDemoTwo {
             System.out.println("List is not empty");
         }
 
-        fruitsList = new LinkedList<>();
+        fruitsList = new LinkedList<>();//Dynamic Polymorphism
     }
 }
