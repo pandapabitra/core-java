@@ -20,8 +20,8 @@ public class SerializationMain {
             out.writeObject(object);
             //out.writeObject(object2);
 
-            file.close();
             out.close();
+            file.close();
 
             System.out.println("Object has been serialized");
         }

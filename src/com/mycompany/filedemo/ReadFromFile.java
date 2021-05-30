@@ -18,6 +18,7 @@ public class ReadFromFile {
             //File myObj= new File("D:/FileHandling/NewFilef1.txt");
             File myObj= new File("Demo.txt");
             Scanner myReader = new Scanner(myObj);
+            myReader.close();
             while(myReader.hasNextLine())
             {
                 String data = myReader.nextLine();
@@ -28,5 +29,10 @@ public class ReadFromFile {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+        catch (Exception e)
+        {
+            System.out.println("Illegal State");
+        }
+        System.out.println("Next code");
     }
 }

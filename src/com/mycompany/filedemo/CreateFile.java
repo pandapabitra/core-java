@@ -14,6 +14,7 @@ public class CreateFile {
         {
             //Creating an object of a file
             File myObj = new File("Demo.txt");
+            //File myObj = new File("D:\\Shiva_Sahasranama_Stotram-Rathnakumar[www.Mp3MaD.Com].mp3");
             //File myObj = new File("D:/Study Materials/NewFilef1.txt");
             //File myObj = new File("D:\\");
             /*
@@ -21,7 +22,7 @@ public class CreateFile {
             System.out.println(myObj.canWrite());
             System.out.println(myObj.exists());
             System.out.println(myObj.length());
-            System.out.println(Arrays.toString(myObj.list()));
+            System.out.println(Arrays.toString(myObj.list()));//works with path, not with File
             */
             if(myObj.createNewFile())
             {
