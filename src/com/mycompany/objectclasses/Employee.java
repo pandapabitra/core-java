@@ -21,4 +21,12 @@ public class Employee {
     {
         return salary;
     }
+
+    //Example to show how to Override the toString() method
+    @Override
+    public String toString()
+    {
+        String s = employeeID + " " + salary;
+        return s;
+    }
 }

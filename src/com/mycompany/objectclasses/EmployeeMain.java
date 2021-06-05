@@ -11,7 +11,9 @@ public class EmployeeMain {
         e2.setEmployeeID(54321);
         e2.setSalary(1622.202);
 
-        System.out.println("Employee ID is "+e1.getEmployeeID()+" and salary is "+e1.getSalary());
-        System.out.println("Employee ID is "+e2.getEmployeeID()+" and salary is "+e2.getSalary());
+        System.out.println(e1);
+        System.out.println(e2);
+        //System.out.println("Employee ID is "+e1.getEmployeeID()+" and salary is "+e1.getSalary());
+        //System.out.println("Employee ID is "+e2.getEmployeeID()+" and salary is "+e2.getSalary());
     }
 }
